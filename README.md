@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Requires crunchyroll premium for premium mangas
+
+To use Session.from_env, set CRUNCHYROLL_USERNAME and CRUNCHYROLL_PASSWORD
+
+An account is needed and be set in .spec.env to run the specs if the VCR fixtures before out of date
 
 ## Contributing
 

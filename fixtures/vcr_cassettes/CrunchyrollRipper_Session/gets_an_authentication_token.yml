@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://api-manga.crunchyroll.com/cr_start_session
+    body:
+      encoding: US-ASCII
+      string: device_type=com.crunchyroll.crunchyroid&device_id=16b34eb91a09fe7a&access_token=1M8BbXptBS4VhMP&version=0&format=json
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Length:
+      - '117'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 27 May 2014 19:30:13 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - check=1; path=/; domain=crunchyroll.com
+      - croll_manga_sess_id=mbednv1cerlupox6w14yx246nj4b2wuh; path=/; domain=crunchyroll.com;
+        httponly
+      P3p:
+      - CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+      Cache-Control:
+      - private, no-store, max-age=0, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Expires:
+      - "-1"
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '516'
+      Content-Type:
+      - text/javascript; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA21Sy27bMBD8FYFnVeD74a8oEPRUFAItMTZjmlT4cGIE/veu
+        bCu99MTl7nB3ZrhfaLbVot0XKq4Un+LoZ7RDtuZKj+Ht7ZyvTZw+7SWzSXzs
+        bXrHvr1j1KMptVjzdZzS7ODFrxfI+QUiKQZuBs4GKhjkZnfxkxvrdVlhUzoP
+        U25xOl5zCuFfDGO/sXcKRO4Zd3tDLDavTlkot+Iy2sUWQo9sq8ctdp+Lz65s
+        14vLq5Ltmhao/P6Cc50fvIt1LNXmCh0Xm+25rPKfMvYhTSconMENe1gzLynn
+        a9/Voy/ds3MHYU2pS2Eeup/B2eK6thyynR3kAeq6YKsrdXswoNvtz2pZjG6q
+        /uLrdTOkxVNMH/Euft8OKxUffR3tAnTxgLEwWhNKMKOKcH2nXNw8thwedUww
+        N5gTxTXm0jycGW0cH1K/QdQYqakkimjoAjJtcM+i4RhrzoViRnHZwyoEoJny
+        +OpdmMEeMhisGNeSUeAi3A8A1WxjAZkgr9z7UMDAEGMEp5QD0ezGi3cfzyFM
+        KC0l1YoywkWPsntv8GtjitPGgxCsJZfMUE0p69HBwU891vLpBaYUc20EJkaw
+        /ntnl7bp5EZjITkBOxiR/7X8gdPMaKOIEAoseS7Jg6dhWipuqFTA+HaD9co5
+        wd692lBcvy1KOqHbXxoawiQ9AwAA
+    http_version:
+  recorded_at: Tue, 27 May 2014 19:30:13 GMT
+- request:
+    method: post
+    uri: http://api-manga.crunchyroll.com/cr_login
+    body:
+      encoding: US-ASCII
+      string: account=&password=&session_id=atrt2hljjmryu5kxavr3c5wbaoq0iuq0&version=0&format=json
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Length:
+      - '95'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 27 May 2014 19:30:14 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - check=1; path=/; domain=crunchyroll.com
+      - croll_manga_sess_id=cq61dyw6vt5tzfvb4el1dgfnwqgs4lwh; path=/; domain=crunchyroll.com;
+        httponly
+      P3p:
+      - CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+      Cache-Control:
+      - private, no-store, max-age=0, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Expires:
+      - "-1"
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '450'
+      Content-Type:
+      - text/javascript; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA01Ra2/aMBT9L/4KrM4DQiIhLdvQQls2oClhXafIBMcxsZ3g
+        Rwt9/Pc5tJX6xVfn3HOP7+MZ7JBGIHoGRmHZxYIhpUD0hvvnkNOdJYLQGQcj
+        750TiGNLaskFsxTmiDKLCTJCM6yJOblfSUd+KRpuBSWVSufvVRbbXz7DVmJO
+        DbcACcrxy04ijl44EgTZLFV5a7aMqqrrsURM4T4oJEYad5250IEDOBy4o9QJ
+        o2EQwXAA7QvBax8goyurKf19L144S29xNZ9RU5YcXm+SIrm/yLJvd2N8Igmt
+        0SVrORQFj03yc9qsi97h8RYnMd6MprAch8fT92PFZjFe/Lq/uENytYKXe8J6
+        S5Xthaymq7p3EjCbyUr9fnLTdbNLb+bx9uDr2yxcVNfOsHY35SFtr4Kb4M/y
+        yZrEk0lkkmxOH8TjlGyW6X7d/sDe3JDJpNvrsaUSq7ch/QEcnYd0Iw9GHfwY
+        EkvZfNpMs+vW2tTWgCNtJM4V1lpTQayTMIzZe6CHRlLdZSTFyp7Ypv4C93xg
+        JwzAvz7YNk3NkazzFhH8oQh96DhW47keDM7RDbuase85tur1P+qRyK5SAgAA
+    http_version:
+  recorded_at: Tue, 27 May 2014 19:30:14 GMT
+recorded_with: VCR 2.9.1

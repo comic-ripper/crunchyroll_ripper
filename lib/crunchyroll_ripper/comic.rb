@@ -6,10 +6,11 @@ require 'crunchyroll_ripper/chapter'
 module CrunchyrollRipper
   class Comic
 
-    attr_accessor :series_id
+    attr_accessor :series_id, :session
 
-    def initialize series_id:, **args
+    def initialize series_id:, session: Session.from_env, **args
       @series_id = series_id
+      @session = session
     end
 
     def chapters
@@ -18,7 +19,8 @@ module CrunchyrollRipper
           chapter_id: chapter["chapter_id"],
           number: chapter["number"],
           volume_number: chapter["volume_number"],
-          volume_id: chapter["volume_id"]
+          volume_id: chapter["volume_id"],
+          session: session
         )
       end
     end

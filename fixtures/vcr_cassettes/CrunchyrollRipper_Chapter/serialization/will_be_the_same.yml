@@ -19,12 +19,12 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 27 May 2014 16:54:29 GMT
+      - Tue, 27 May 2014 19:30:12 GMT
       Server:
       - Apache
       Set-Cookie:
       - check=1; path=/; domain=crunchyroll.com
-      - croll_manga_sess_id=uc6q3e3wpq2201d64mdjaeq6hn3ohfxa; path=/; domain=crunchyroll.com;
+      - croll_manga_sess_id=fegcvtgsoxtpol6ihxod6ofqysbde4za; path=/; domain=crunchyroll.com;
         httponly
       P3p:
       - CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
@@ -129,5 +129,5 @@ http_interactions:
         co/AnEZ0/LbiPQLDGtE9Jj8Z4KovYdBN2qBGDDz1K2sNa0RXFnsckLQWjVhk
         5Q+g//Xtv6pArLLuigAA
     http_version: 
-  recorded_at: Tue, 27 May 2014 16:54:29 GMT
-recorded_with: VCR 2.9.0
+  recorded_at: Tue, 27 May 2014 19:30:12 GMT
+recorded_with: VCR 2.9.1

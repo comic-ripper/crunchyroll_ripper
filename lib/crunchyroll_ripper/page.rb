@@ -6,10 +6,11 @@ module CrunchyrollRipper
     # They use really strong XOR encryption
     MAGIC_NUMBER = 0x42
 
-    attr_accessor :url
+    attr_accessor :url, :number
 
-    def initialize url:, **args
+    def initialize number:, url:, **args
       @url = url
+      @number = number
     end
 
     def raw_image
@@ -27,12 +28,13 @@ module CrunchyrollRipper
     def to_json a
       {
         JSON.create_id => self.class.name,
+        number: number,
         image_url: url
       }.to_json a
     end
 
     def self.json_create(data)
-      new(image_url: data['image_url'])
+      new(number: data['number'],  image_url: data['image_url'])
     end
   end
 end
